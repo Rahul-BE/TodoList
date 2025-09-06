@@ -9,7 +9,7 @@ export function Task({ task, onDelete, onComplete }) {
         {task.isCompleted ? <BsFillCheckCircleFill /> : <div />}
       </button>
 
-      <p className={task.isCompleted ? styles.textCompleted : ""}>
+      <p className = {task.isCompleted ? styles.textCompleted : ""}>
         {task.title}
       </p>
 

@@ -41,7 +41,7 @@ function App() {
       if(task.id === taskId) {
         return {
           ...task,
-          isCompleted: !task.isCompleted
+          isCompleted : !task.isCompleted
         }
       }
       return task;
